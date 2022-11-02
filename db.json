@@ -4,8 +4,107 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "age": 38,
+      "phone": "(99)0000-0000",
+      "id": 1,
+      "type": "user"
+    },
+    {
+      "email": "testesan@mail.com.br",
+      "password": "$2a$10$.rDKwrURKsw.DR2KWRRDzeOCAYES3gd327fUKOuzI8y0zx/vI8afC",
+      "name": "Test Testersan",
+      "phone": "(99)0000-0000",
+      "address": "rua do teste, 901, são paulo-sp",
+      "type": "serviço",
+      "id": 2
+    },
+    {
+      "email": "teste@mail.com.br",
+      "password": "$2a$10$WIAX1EMLurY8IZR3Yla2KeZyCRCd4j84XcoEJCuWM3fr4HwH01jom",
+      "name": "Test Testerson",
+      "phone": "(99)0000-0000",
+      "address": "rua do teste, 901, são paulo-sp",
+      "type": "user",
+      "id": 3
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Alfredo revolution Deluxe",
+      "type": "Dog",
+      "picture": "",
+      "race": "German Sheppard"
+    },
+    {
+      "userId": 1,
+      "name": "Alfredo",
+      "type": "Dog",
+      "picture": "",
+      "race": "German Sheppard",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "name": "Caramelo Furioso",
+      "type": "Fish",
+      "picture": "",
+      "race": "Beta",
+      "id": 3
+    }
+  ],
+  "services": [
+    {
+      "userId": 1,
+      "servicename": "Veterinaria bixo loco Revanche",
+      "cnpj": "00.000.000/0001-00",
+      "phone": "(99)00000-0000",
+      "description": "O melhor atendimento veterinário da região",
+      "typeofservice": "Veterinaria",
+      "images": [
+        "foto1",
+        "foto2",
+        "foto3"
+      ],
+      "logo": "logo.svg",
       "id": 1
+    },
+    {
+      "userId": 3,
+      "servicename": "Hotel HappyPaws",
+      "cnpj": "00.000.000/0001-00",
+      "phone": "(99)00000-0000",
+      "description": "O melhor hotel de pets região",
+      "typeofservice": "Hotel",
+      "images": [
+        "foto1",
+        "foto2",
+        "foto3"
+      ],
+      "logo": "logo.svg",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "userName": "Kenzinho",
+      "servicename": "Veterinaria bixo loco Revanche",
+      "petName": "Alfredo",
+      "petPicture": "foto alfredo",
+      "comment": "Local maravilhoso, would bark again",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "userName": "Test Testerson",
+      "servicename": "Veterinaria bixo loco Revanche",
+      "petName": "Alfredo",
+      "petPicture": "foto alfredo",
+      "comment": "Local maravilhoso, would bark again and again",
+      "rating": 5,
+      "id": 2
     }
   ]
 }
